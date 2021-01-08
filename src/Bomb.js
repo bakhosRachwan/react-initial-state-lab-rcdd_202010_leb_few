@@ -1,9 +1,9 @@
 import React from 'react'
 
 class Bomb extends React.Component{
-  constructor(props) { 
+  constructor(props) {
   super()
-  this.state = { 
+  this.state = {
     someKey: props.someValue
   }
 }
