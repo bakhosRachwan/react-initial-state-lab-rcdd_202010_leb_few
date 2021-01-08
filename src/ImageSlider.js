@@ -8,7 +8,9 @@ class ImageSlider extends React.Component{
     }
   }
   render(){
-    return(null)
+    return(
+      <div>I am on slide {this.state.currentSlideIndex}</div>
+    )
   }
 }
 export default ImageSlider
