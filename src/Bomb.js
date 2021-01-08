@@ -8,7 +8,9 @@ class Bomb extends React.Component{
   }
 }
   render(){
-    return(null)
+    return(
+      <div>{this.state.someKey}seconds left before I go boom!</div>
+    )
   }
 }
 export default Bomb
