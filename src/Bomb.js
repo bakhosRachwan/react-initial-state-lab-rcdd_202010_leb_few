@@ -4,12 +4,12 @@ class Bomb extends React.Component{
   constructor(props) {
   super()
   this.state = {
-    someKey: props.someValue
+    secondsLeft: props.someValue
   }
 }
   render(){
     return(
-      <div>{this.state.someKey}seconds left before I go boom!</div>
+      <div>{this.state.secondsLeft}seconds left before I go boom!</div>
     )
   }
 }
